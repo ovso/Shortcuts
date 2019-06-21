@@ -1,0 +1,198 @@
+[
+  {
+    "shortcut": "Ctrl + X",
+    "todo": "선택한 항목을 잘라냅니다."
+  },
+  {
+    "shortcut": "Ctrl + C(또는 Ctrl + Insert)",
+    "todo": "선택한 항목을 복사합니다."
+  },
+  {
+    "shortcut": "Ctrl + V(또는 Shift + Insert)",
+    "todo": "선택한 항목을 붙여넣습니다."
+  },
+  {
+    "shortcut": "Ctrl + Z",
+    "todo": "작업을 실행 취소합니다."
+  },
+  {
+    "shortcut": "Alt + Tab",
+    "todo": "열려 있는 앱 간에 전환합니다."
+  },
+  {
+    "shortcut": "Alt + F4",
+    "todo": "활성 항목을 닫거나 활성 앱을 종료합니다."
+  },
+  {
+    "shortcut": "Windows 로고 키  + L",
+    "todo": "PC를 잠급니다."
+  },
+  {
+    "shortcut": "Windows 로고 키  + D",
+    "todo": "바탕 화면을 표시하거나 숨깁니다."
+  },
+  {
+    "shortcut": "F2",
+    "todo": "선택한 항목의 이름을 바꿉니다."
+  },
+  {
+    "shortcut": "F3",
+    "todo": "파일 탐색기에서 파일 또는 폴더를 검색합니다."
+  },
+  {
+    "shortcut": "F4",
+    "todo": "파일 탐색기에서 주소 표시줄 목록을 표시합니다."
+  },
+  {
+    "shortcut": "F5",
+    "todo": "활성 창을 새로 고칩니다."
+  },
+  {
+    "shortcut": "F6",
+    "todo": "창이나 바탕 화면의 화면 요소들을 순환합니다."
+  },
+  {
+    "shortcut": "F10",
+    "todo": "활성 앱의 메뉴 모음을 활성화합니다."
+  },
+  {
+    "shortcut": "Alt + F8",
+    "todo": "로그인 화면에서 암호를 표시합니다."
+  },
+  {
+    "shortcut": "Alt + Esc",
+    "todo": "열린 순서대로 항목을 순환합니다."
+  },
+  {
+    "shortcut": "Alt + 밑줄이 그어진 문자",
+    "todo": "해당 문자에 대한 명령을 수행합니다."
+  },
+  {
+    "shortcut": "Alt + Enter",
+    "todo": "선택한 항목의 속성을 표시합니다."
+  },
+  {
+    "shortcut": "Alt + 스페이스바",
+    "todo": "활성 창에 대한 바로 가기 메뉴를 엽니다."
+  },
+  {
+    "shortcut": "Alt + 왼쪽 화살표",
+    "todo": "뒤로 이동합니다."
+  },
+  {
+    "shortcut": "Alt + 오른쪽 화살표",
+    "todo": "앞으로 이동합니다."
+  },
+  {
+    "shortcut": "Alt + Page Up",
+    "todo": "한 화면 위로 이동합니다."
+  },
+  {
+    "shortcut": "Alt + Page Down",
+    "todo": "한 화면 아래로 이동합니다."
+  },
+  {
+    "shortcut": "Ctrl + F4",
+    "todo": "활성 문서를 닫습니다(전체 화면이어서 여러 개의 문서를 동시에 열 수 있는 앱)."
+  },
+  {
+    "shortcut": "Ctrl + A",
+    "todo": "문서나 창에 있는 모든 항목을 선택합니다."
+  },
+  {
+    "shortcut": "Ctrl + D(또는 Delete)",
+    "todo": "선택한 항목을 삭제하고 휴지통으로 이동합니다."
+  },
+  {
+    "shortcut": "Ctrl + R(또는 F5)",
+    "todo": "활성 창을 새로 고칩니다."
+  },
+  {
+    "shortcut": "Ctrl + Y",
+    "todo": "작업을 다시 실행합니다."
+  },
+  {
+    "shortcut": "Ctrl + 오른쪽 화살표",
+    "todo": "커서를 다음 단어의 시작 부분으로 이동합니다."
+  },
+  {
+    "shortcut": "Ctrl + 왼쪽 화살표",
+    "todo": "커서를 이전 단어의 시작 부분으로 이동합니다."
+  },
+  {
+    "shortcut": "Ctrl + 아래쪽 화살표",
+    "todo": "커서를 다음 단락의 시작 부분으로 이동합니다."
+  },
+  {
+    "shortcut": "Ctrl + 위쪽 화살표",
+    "todo": "커서를 이전 단락의 시작 부분으로 이동합니다."
+  },
+  {
+    "shortcut": "Ctrl + Alt + Tab",
+    "todo": "화살표 키를 사용하여 열려 있는 모든 앱 사이를 전환합니다."
+  },
+  {
+    "shortcut": "Alt + Shift + 화살표 키",
+    "todo": "시작 메뉴에서 그룹이나 타일에 포커스가 놓이면 지정된 방향으로 이를 이동합니다."
+  },
+  {
+    "shortcut": "Ctrl + Shift + 화살표 키",
+    "todo": "시작 메뉴에서 타일에 포커스가 놓으면 이를 다른 타일로 이동하여 폴더를 만듭니다."
+  },
+  {
+    "shortcut": "Ctrl + 화살표 키",
+    "todo": "시작 메뉴가 열려 있으면 크기를 조정합니다."
+  },
+  {
+    "shortcut": "Ctrl + 화살표 키(항목으로 이동이 목적) + 스페이스바",
+    "todo": "창이나 바탕 화면에서 여러 개의 개별 항목을 선택합니다."
+  },
+  {
+    "shortcut": "Ctrl + Shift + 화살표 키",
+    "todo": "텍스트 블록을 선택합니다."
+  },
+  {
+    "shortcut": "Ctrl + Esc",
+    "todo": "시작 화면을 엽니다."
+  },
+  {
+    "shortcut": "Ctrl + Shift + Esc",
+    "todo": "작업 관리자를 엽니다."
+  },
+  {
+    "shortcut": "Ctrl + Shift",
+    "todo": "여러 개의 자판 배열을 사용할 수 있을 때 해당 자판 배열을 전환합니다."
+  },
+  {
+    "shortcut": "Ctrl + 스페이스바",
+    "todo": "중국어 IME(입력기)를 켜거나 끕니다."
+  },
+  {
+    "shortcut": "Shift + F10",
+    "todo": "선택한 항목에 대한 바로 가기 메뉴를 표시합니다."
+  },
+  {
+    "shortcut": "Shift + 모든 화살표 키",
+    "todo": "창이나 바탕 화면에서 둘 이상의 항목을 선택하거나 문서에서 텍스트를 선택합니다."
+  },
+  {
+    "shortcut": "Shift + Delete",
+    "todo": "선택한 항목을 휴지통으로 먼저 이동하지 않은 상태에서 삭제합니다."
+  },
+  {
+    "shortcut": "오른쪽 화살표",
+    "todo": "오른쪽에 있는 다음 메뉴를 열거나, 하위 메뉴를 엽니다."
+  },
+  {
+    "shortcut": "왼쪽 화살표",
+    "todo": "왼쪽에 있는 다음 메뉴를 열거나 하위 메뉴를 닫습니다."
+  },
+  {
+    "shortcut": "Esc",
+    "todo": "현재 작업을 중지하거나 나갑니다."
+  },
+  {
+    "shortcut": "PrtScn",
+    "todo": "전체 화면의 스크린샷을 생성하고 클립보드에 복사합니다.   \t\t\t참고  \t\t\t \t\t\t\t스크린 캡처도 열어서 스크린샷을 편집할 수 있도록 이 바로 가기를 변경할 수 있습니다. 시작  > 설정 > 접근성 > 키보드를 선택하고 화면 인쇄 바로 가기에서 토글을 켭니다."
+  }
+]
