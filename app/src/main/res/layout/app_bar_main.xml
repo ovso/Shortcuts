@@ -24,7 +24,12 @@
 
   </com.google.android.material.appbar.AppBarLayout>
 
-  <include layout="@layout/content_main"/>
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerview_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+      />
 
   <com.google.android.material.floatingactionbutton.FloatingActionButton
       android:id="@+id/fab"
