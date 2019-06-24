@@ -1,80 +1,114 @@
 {
-  "company": [
+  "apps": [
     {
-      "name": "Microsoft",
-      "apps": [
-        {
-          "name": "Windows10",
-          "url": {
-            "en": "https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts",
-            "ko": "https://support.microsoft.com/ko-kr/help/12445/windows-keyboard-shortcuts",
-            "es": "https://support.microsoft.com/es-es/help/12445/windows-keyboard-shortcuts",
-            "hi": "https://support.microsoft.com/hi-in/help/12445/windows-keyboard-shortcuts",
-            "zh": "https://support.microsoft.com/zh-cn/help/12445/windows-keyboard-shortcuts",
-            "ar": "https://support.microsoft.com/ar-sa/help/12445/windows-keyboard-shortcuts"
-          }
-        },
-        {
-          "name": "Word",
-          "url": {
-            "en": "https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-word-on-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2",
-            "ko": "https://support.office.com/ko-kr/article/windows%ec%9a%a9-microsoft-word-%eb%b0%94%eb%a1%9c-%ea%b0%80%ea%b8%b0-%ed%82%a4-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=ko-KR&rs=ko-KR&ad=KR",
-            "es": "https://support.office.com/es-es/article/m%c3%a9todos-abreviados-de-teclado-de-microsoft-word-para-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=es-ES&rs=es-ES&ad=ES",
-            "hi": "https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-word-on-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2",
-            "zh": "https://support.office.com/zh-cn/article/microsoft-word-%e5%9c%a8-windows-%e4%b8%8a%e7%9a%84%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e6%96%b9%e5%bc%8f-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=zh-CN&rs=zh-CN&ad=CN",
-            "ar": "https://support.office.com/ar-sa/article/%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%aa%d9%8a%d8%ad-%d9%84%d9%80-microsoft-word-%d8%b9%d9%84%d9%89-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=ar-SA&rs=ar-SA&ad=SA"
-          }
-        },
-        {
-          "name": "Excel",
-          "url": {
-            "en": "https://support.office.com/en-us/article/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
-            "ko": "https://support.office.com/ko-kr/article/windows%ec%9a%a9-excel%ec%9d%98-%eb%b0%94%eb%a1%9c-%ea%b0%80%ea%b8%b0-%ed%82%a4-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=ko-KR&rs=ko-KR&ad=KR",
-            "es": "https://support.office.com/es-es/article/m%c3%a9todos-abreviados-de-teclado-de-excel-para-windows-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=es-ES&rs=es-ES&ad=ES",
-            "hi": "https://support.office.com/en-us/article/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
-            "zh": "https://support.office.com/zh-cn/article/excel-for-windows-%e4%b8%ad%e7%9a%84%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e6%96%b9%e5%bc%8f-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=zh-CN&rs=zh-CN&ad=CN",
-            "ar": "https://support.office.com/ar-sa/article/%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%aa%d9%8a%d8%ad-%d9%81%d9%8a-excel-for-windows-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=ar-SA&rs=ar-SA&ad=SA"
-          }
-        },
-        {
-          "name": "PowerPoint",
-          "url": {
-            "en": "https://support.office.com/en-us/article/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4",
-            "ko": "https://support.office.com/ko-kr/article/%eb%b0%94%eb%a1%9c-%ea%b0%80%ea%b8%b0-%ed%82%a4%eb%a5%bc-%ec%82%ac%ec%9a%a9%ed%95%98%ec%97%ac-powerpoint-%ed%94%84%eb%a0%88%ec%a0%a0%ed%85%8c%ec%9d%b4%ec%85%98-%eb%a7%8c%eb%93%a4%ea%b8%b0-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=ko-KR&rs=ko-KR&ad=KR",
-            "es": "https://support.office.com/es-es/article/usar-m%c3%a9todos-abreviados-de-teclado-para-crear-presentaciones-de-powerpoint-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=es-ES&rs=es-ES&ad=ES",
-            "hi": "https://support.office.com/en-us/article/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=en-US&rs=en-US&ad=US",
-            "zh": "https://support.office.com/zh-cn/article/%e4%bd%bf%e7%94%a8%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e6%96%b9%e5%bc%8f%e5%88%9b%e5%bb%ba-powerpoint-%e6%bc%94%e7%a4%ba%e6%96%87%e7%a8%bf-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=zh-CN&rs=zh-CN&ad=CN",
-            "ar": "https://support.office.com/ar-sa/article/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%aa%d9%8a%d8%ad-%d9%84%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%b9%d8%b1%d9%88%d8%b6-powerpoint-%d8%a7%d9%84%d8%aa%d9%82%d8%af%d9%8a%d9%85%d9%8a%d8%a9-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=ar-SA&rs=ar-SA&ad=SA"
-          }
-        }
-      ]
+      "name": "MS Windows10",
+      "url": {
+        "en": "https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts",
+        "ko": "https://support.microsoft.com/ko-kr/help/12445/windows-keyboard-shortcuts",
+        "es": "https://support.microsoft.com/es-es/help/12445/windows-keyboard-shortcuts",
+        "hi": "https://support.microsoft.com/hi-in/help/12445/windows-keyboard-shortcuts",
+        "zh": "https://support.microsoft.com/zh-cn/help/12445/windows-keyboard-shortcuts",
+        "ar": "https://support.microsoft.com/ar-sa/help/12445/windows-keyboard-shortcuts"
+      }
     },
     {
-      "name": "Apple",
-      "apps": [
-        {
-          "name": "Mac",
-          "url": {
-            "en": "https://support.apple.com/en-us/HT201236",
-            "ko": "https://support.apple.com/ko-kr/HT201236",
-            "es": "https://support.apple.com/es-es/HT201236",
-            "hi": "https://support.apple.com/en-us/HT201236",
-            "zh": "https://support.apple.com/zh-cn/HT201236",
-            "ar": "https://support.apple.com/ar-sa/HT201236"
-          }
-        },
-        {
-          "name": "Keynote",
-          "url": {
-            "en": "https://support.apple.com/kb/PH24313?locale=es_US",
-            "ko": "https://support.apple.com/kb/PH24313?locale=ko_KR",
-            "es": "https://support.apple.com/kb/PH24313?locale=es_ES",
-            "hi": "https://support.apple.com/kb/PH24313?locale=es_US",
-            "zh": "https://support.apple.com/kb/PH24313?locale=zh_CN",
-            "ar": "https://support.apple.com/kb/PH24313?locale=ar_SA"
-          }
-        }
-      ]
+      "name": "MS Word",
+      "url": {
+        "en": "https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-word-on-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+        "ko": "https://support.office.com/ko-kr/article/windows%ec%9a%a9-microsoft-word-%eb%b0%94%eb%a1%9c-%ea%b0%80%ea%b8%b0-%ed%82%a4-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=ko-KR&rs=ko-KR&ad=KR",
+        "es": "https://support.office.com/es-es/article/m%c3%a9todos-abreviados-de-teclado-de-microsoft-word-para-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=es-ES&rs=es-ES&ad=ES",
+        "hi": "https://support.office.com/en-us/article/keyboard-shortcuts-for-microsoft-word-on-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+        "zh": "https://support.office.com/zh-cn/article/microsoft-word-%e5%9c%a8-windows-%e4%b8%8a%e7%9a%84%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e6%96%b9%e5%bc%8f-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=zh-CN&rs=zh-CN&ad=CN",
+        "ar": "https://support.office.com/ar-sa/article/%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%aa%d9%8a%d8%ad-%d9%84%d9%80-microsoft-word-%d8%b9%d9%84%d9%89-windows-95ef89dd-7142-4b50-afb2-f762f663ceb2?ui=ar-SA&rs=ar-SA&ad=SA"
+      }
+    },
+    {
+      "name": "MS Excel",
+      "url": {
+        "en": "https://support.office.com/en-us/article/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+        "ko": "https://support.office.com/ko-kr/article/windows%ec%9a%a9-excel%ec%9d%98-%eb%b0%94%eb%a1%9c-%ea%b0%80%ea%b8%b0-%ed%82%a4-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=ko-KR&rs=ko-KR&ad=KR",
+        "es": "https://support.office.com/es-es/article/m%c3%a9todos-abreviados-de-teclado-de-excel-para-windows-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=es-ES&rs=es-ES&ad=ES",
+        "hi": "https://support.office.com/en-us/article/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+        "zh": "https://support.office.com/zh-cn/article/excel-for-windows-%e4%b8%ad%e7%9a%84%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e6%96%b9%e5%bc%8f-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=zh-CN&rs=zh-CN&ad=CN",
+        "ar": "https://support.office.com/ar-sa/article/%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%aa%d9%8a%d8%ad-%d9%81%d9%8a-excel-for-windows-1798d9d5-842a-42b8-9c99-9b7213f0040f?ui=ar-SA&rs=ar-SA&ad=SA"
+      }
+    },
+    {
+      "name": "MS PowerPoint",
+      "url": {
+        "en": "https://support.office.com/en-us/article/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4",
+        "ko": "https://support.office.com/ko-kr/article/%eb%b0%94%eb%a1%9c-%ea%b0%80%ea%b8%b0-%ed%82%a4%eb%a5%bc-%ec%82%ac%ec%9a%a9%ed%95%98%ec%97%ac-powerpoint-%ed%94%84%eb%a0%88%ec%a0%a0%ed%85%8c%ec%9d%b4%ec%85%98-%eb%a7%8c%eb%93%a4%ea%b8%b0-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=ko-KR&rs=ko-KR&ad=KR",
+        "es": "https://support.office.com/es-es/article/usar-m%c3%a9todos-abreviados-de-teclado-para-crear-presentaciones-de-powerpoint-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=es-ES&rs=es-ES&ad=ES",
+        "hi": "https://support.office.com/en-us/article/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=en-US&rs=en-US&ad=US",
+        "zh": "https://support.office.com/zh-cn/article/%e4%bd%bf%e7%94%a8%e9%94%ae%e7%9b%98%e5%bf%ab%e6%8d%b7%e6%96%b9%e5%bc%8f%e5%88%9b%e5%bb%ba-powerpoint-%e6%bc%94%e7%a4%ba%e6%96%87%e7%a8%bf-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=zh-CN&rs=zh-CN&ad=CN",
+        "ar": "https://support.office.com/ar-sa/article/%d8%a7%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d8%ae%d8%aa%d8%b5%d8%a7%d8%b1%d8%a7%d8%aa-%d9%84%d9%88%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d9%81%d8%a7%d8%aa%d9%8a%d8%ad-%d9%84%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d8%b9%d8%b1%d9%88%d8%b6-powerpoint-%d8%a7%d9%84%d8%aa%d9%82%d8%af%d9%8a%d9%85%d9%8a%d8%a9-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4?ui=ar-SA&rs=ar-SA&ad=SA"
+      }
+    },
+    {
+      "name": "Apple Mac",
+      "url": {
+        "en": "https://support.apple.com/en-us/HT201236",
+        "ko": "https://support.apple.com/ko-kr/HT201236",
+        "es": "https://support.apple.com/es-es/HT201236",
+        "hi": "https://support.apple.com/en-us/HT201236",
+        "zh": "https://support.apple.com/zh-cn/HT201236",
+        "ar": "https://support.apple.com/ar-sa/HT201236"
+      }
+    },
+    {
+      "name": "Apple Keynote",
+      "url": {
+        "en": "https://support.apple.com/kb/PH24313?locale=es_US",
+        "ko": "https://support.apple.com/kb/PH24313?locale=ko_KR",
+        "es": "https://support.apple.com/kb/PH24313?locale=es_ES",
+        "hi": "https://support.apple.com/kb/PH24313?locale=es_US",
+        "zh": "https://support.apple.com/kb/PH24313?locale=zh_CN",
+        "ar": "https://support.apple.com/kb/PH24313?locale=ar_SA"
+      }
+    },
+    {
+      "name": "Hancom Office",
+      "url": {
+        "en": "http://help.hancom.com/hoffice/multi/en_us/hwp/view/toolbar/shortcut(table).htm",
+        "ko": "http://help.hancom.com/hoffice/multi/ko_kr/hwp/view/toolbar/shortcut(table).htm",
+        "es": "http://help.hancom.com/hoffice/multi/en_us/hwp/view/toolbar/shortcut(table).htm",
+        "hi": "http://help.hancom.com/hoffice/multi/en_us/hwp/view/toolbar/shortcut(table).htm",
+        "zh": "http://help.hancom.com/hoffice/multi/en_us/hwp/view/toolbar/shortcut(table).htm",
+        "ar": "http://help.hancom.com/hoffice/multi/en_us/hwp/view/toolbar/shortcut(table).htm"
+      }
+    },
+    {
+      "name": "Adobe Photoshop",
+      "url": {
+        "en": "https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html",
+        "ko": "https://helpx.adobe.com/kr/photoshop/using/default-keyboard-shortcuts.html",
+        "es": "https://helpx.adobe.com/la/photoshop/using/default-keyboard-shortcuts.html",
+        "hi": "https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html",
+        "zh": "https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html",
+        "ar": "https://helpx.adobe.com/mena_ar/photoshop/using/default-keyboard-shortcuts.html"
+      }
+    },
+    {
+      "name": "Adobe Acrobat",
+      "url": {
+        "en": "https://helpx.adobe.com/acrobat/using/keyboard-shortcuts.html",
+        "ko": "https://helpx.adobe.com/kr/acrobat/using/keyboard-shortcuts.html",
+        "es": "https://helpx.adobe.com/es/acrobat/using/keyboard-shortcuts.html",
+        "hi": "https://helpx.adobe.com/acrobat/using/keyboard-shortcuts.html",
+        "zh": "https://helpx.adobe.com/cn/acrobat/using/keyboard-shortcuts.html",
+        "ar": "https://helpx.adobe.com/mena_ar/acrobat/using/keyboard-shortcuts.html"
+      }
+    },
+    {
+      "name": "Adobe Illustrator",
+      "url": {
+        "en": "https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html",
+        "ko": "https://helpx.adobe.com/kr/illustrator/using/default-keyboard-shortcuts.html",
+        "es": "https://helpx.adobe.com/es/illustrator/using/default-keyboard-shortcuts.html",
+        "hi": "https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html",
+        "zh": "https://helpx.adobe.com/cn/illustrator/using/default-keyboard-shortcuts.html",
+        "ar": "https://helpx.adobe.com/mena_ar/illustrator/using/default-keyboard-shortcuts.html"
+      }
     }
   ]
 }
