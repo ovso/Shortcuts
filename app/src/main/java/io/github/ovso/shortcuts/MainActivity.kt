@@ -5,26 +5,24 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
+import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.floatingactionbutton.FloatingActionButton
+import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.navigation.NavigationView
-import com.google.android.material.snackbar.Snackbar
+import io.github.ovso.shortcuts.databinding.ActivityMainBinding
+import kotlinx.android.synthetic.main.app_bar_main.toolbar
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
-    val toolbar: Toolbar = findViewById(R.id.toolbar)
-    setSupportActionBar(toolbar)
+    setupDataBinding(savedInstanceState)
+    setupToolbar()
+    setupDrawer()
+  }
 
-    val fab: FloatingActionButton = findViewById(R.id.fab)
-    fab.setOnClickListener { view ->
-      Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-        .setAction("Action", null).show()
-    }
+  private fun setupDrawer() {
     val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
     val navView: NavigationView = findViewById(R.id.nav_view)
     val toggle = ActionBarDrawerToggle(
@@ -34,6 +32,24 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     toggle.syncState()
 
     navView.setNavigationItemSelectedListener(this)
+  }
+
+  private fun setupToolbar() {
+    setSupportActionBar(toolbar)
+  }
+
+  private fun setupDataBinding(savedInstanceState: Bundle?) {
+    if (savedInstanceState == null) {
+      val contentView = DataBindingUtil.setContentView<ActivityMainBinding>(
+        this,
+        R.layout.activity_main
+      )
+      contentView.viewModel = provideViewModel();
+    }
+  }
+
+  private fun provideViewModel(): MainViewModel? {
+
   }
 
   override fun onBackPressed() {
