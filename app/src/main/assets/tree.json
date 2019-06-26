@@ -109,6 +109,61 @@
         "zh": "https://helpx.adobe.com/cn/illustrator/using/default-keyboard-shortcuts.html",
         "ar": "https://helpx.adobe.com/mena_ar/illustrator/using/default-keyboard-shortcuts.html"
       }
+    },
+    {
+      "name": "Adobe Premiere",
+      "url": {
+        "en": "https://helpx.adobe.com/premiere-pro/using/default-keyboard-shortcuts.html",
+        "ko": "https://helpx.adobe.com/kr/premiere-pro/using/default-keyboard-shortcuts.html",
+        "es": "https://helpx.adobe.com/es/premiere-pro/using/default-keyboard-shortcuts.html",
+        "hi": "https://helpx.adobe.com/premiere-pro/using/default-keyboard-shortcuts.html",
+        "zh": "https://helpx.adobe.com/cn/premiere-pro/using/default-keyboard-shortcuts.html",
+        "ar": "https://helpx.adobe.com/mena_ar/premiere-pro/using/default-keyboard-shortcuts.html"
+      }
+    },
+    {
+      "name": "Adobe InDesign",
+      "url": {
+        "en": "https://helpx.adobe.com/indesign/using/default-keyboard-shortcuts.html",
+        "ko": "https://helpx.adobe.com/kr/indesign/using/default-keyboard-shortcuts.html",
+        "es": "https://helpx.adobe.com/es/indesign/using/default-keyboard-shortcuts.html",
+        "hi": "https://helpx.adobe.com/indesign/using/default-keyboard-shortcuts.html",
+        "zh": "https://helpx.adobe.com/cn/indesign/using/default-keyboard-shortcuts.html",
+        "ar": "https://helpx.adobe.com/mena_ar/indesign/using/default-keyboard-shortcuts.html"
+      }
+    },
+    {
+      "name": "Jetbrain Intellij",
+      "url": {
+        "en": "https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html",
+        "ko": "https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html",
+        "es": "https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html",
+        "hi": "https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html",
+        "zh": "https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html",
+        "ar": "https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html"
+      }
+    },
+    {
+      "name": "Google Chrome",
+      "url": {
+        "en": "https://support.google.com/chrome/answer/157179?hl=en",
+        "ko": "https://support.google.com/chrome/answer/157179?hl=ko",
+        "es": "https://support.google.com/chrome/answer/157179?hl=es",
+        "hi": "https://support.google.com/chrome/answer/157179?hl=hi",
+        "zh": "https://support.google.com/chrome/answer/157179?hl=zh-Hans",
+        "ar": "https://support.google.com/chrome/answer/157179?hl=ar"
+      }
+    },
+    {
+      "name": "Mozilla Firefox",
+      "url": {
+        "en": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly",
+        "ko": "https://support.mozilla.org/ko/kb/keyboard-shortcut-perform-firefox-tasks-quickly",
+        "es": "https://support.mozilla.org/es/kb/accesos-directos-realiza-rapidamente-tareas-comune",
+        "hi": "https://support.mozilla.org/hi-IN/kb/%E0%A4%95%E0%A5%80%E0%A4%AC%E0%A5%8B%E0%A4%B0%E0%A5%8D%E0%A4%A1%20%E0%A4%B6%E0%A5%89%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A4%95%E0%A4%9F%20-%20%E0%A4%86%E0%A4%AE%20%E0%A4%AB%E0%A4%BC%E0%A4%BE%E0%A4%AF%E0%A4%B0%E0%A4%AB%E0%A4%BC%E0%A5%89%E0%A4%95%E0%A5%8D%E0%A4%B8%20%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%8B%20%E0%A4%9C%E0%A4%B2%E0%A5%8D%E0%A4%A6%E0%A5%80%20%E0%A4%B8%E0%A5%87%20%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82",
+        "zh": "https://support.mozilla.org/zh-CN/kb/%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE",
+        "ar": "https://support.mozilla.org/ar/kb/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%88%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D8%AA%D9%8A%D8%AD-%D8%A3%D8%AF%D8%A7%D8%A1-%D8%A7%D9%84%D9%85%D9%87%D8%A7%D9%85-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9-%D9%81%D9%8A-%D9%81%D8%A7%D9%8A%D8%B1%D9%81%D9%88%D9%83%D8%B3-%D8%A8%D8%B3%D8%B1%D8%B9%D8%A9"
+      }
     }
   ]
 }
