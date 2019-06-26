@@ -175,6 +175,28 @@
         "zh": "https://support.microsoft.com/zh-cn/help/15357/windows-internet-explorer-11-keyboard-shortcuts",
         "ar": "https://support.microsoft.com/ar-ae/help/15357/windows-internet-explorer-11-keyboard-shortcuts"
       }
+    },
+    {
+      "name": "Apple XCode",
+      "url": {
+        "en": "https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html",
+        "ko": "https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html",
+        "es": "https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html",
+        "hi": "https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html",
+        "zh": "https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html",
+        "ar": "https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html"
+      }
+    },
+    {
+      "name": "Google Android Studio",
+      "url": {
+        "en": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=en",
+        "ko": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=ko",
+        "es": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=es",
+        "hi": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=en",
+        "zh": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=en",
+        "ar": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=en"
+      }
     }
   ]
 }
