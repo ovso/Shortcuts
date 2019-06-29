@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "741243038055",
+    "firebase_url": "https://shortcuts-ecc8d.firebaseio.com",
+    "project_id": "shortcuts-ecc8d",
+    "storage_bucket": "shortcuts-ecc8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741243038055:android:c28748b653eedca2",
+        "android_client_info": {
+          "package_name": "io.github.ovso.shortcuts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741243038055-0c8jg0p4tg03efjh4k75rjip3kmjnetj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh2f3ReKCRblL8SqxpNA9cfoyBAZQK0Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741243038055-0c8jg0p4tg03efjh4k75rjip3kmjnetj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

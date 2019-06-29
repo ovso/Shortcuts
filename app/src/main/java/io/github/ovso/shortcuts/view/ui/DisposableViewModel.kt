@@ -1,4 +1,4 @@
-package io.github.ovso.shortcuts
+package io.github.ovso.shortcuts.view.ui
 
 import androidx.lifecycle.ViewModel
 

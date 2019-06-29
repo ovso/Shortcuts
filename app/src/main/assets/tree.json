@@ -197,6 +197,17 @@
         "zh": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=en",
         "ar": "https://developer.android.com/studio/intro/keyboard-shortcuts?hl=en"
       }
+    },
+    {
+      "name": "Autodesk Autocad",
+      "url": {
+        "en": "https://www.autodesk.com/shortcuts/autocad",
+        "ko": "https://www.autodesk.com/shortcuts/autocad",
+        "es": "https://www.autodesk.com/shortcuts/autocad",
+        "hi": "https://www.autodesk.com/shortcuts/autocad",
+        "zh": "https://www.autodesk.com/shortcuts/autocad",
+        "ar": "https://www.autodesk.com/shortcuts/autocad"
+      }
     }
   ]
 }

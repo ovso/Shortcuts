@@ -1,4 +1,4 @@
-package io.github.ovso.shortcuts
+package io.github.ovso.shortcuts.view.ui.main
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,8 +8,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
-import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import com.google.android.material.navigation.NavigationView
+import io.github.ovso.shortcuts.R
+import io.github.ovso.shortcuts.R.id
+import io.github.ovso.shortcuts.R.layout
+import io.github.ovso.shortcuts.R.string
 import io.github.ovso.shortcuts.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.app_bar_main.toolbar
 
@@ -23,10 +27,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
   }
 
   private fun setupDrawer() {
-    val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
-    val navView: NavigationView = findViewById(R.id.nav_view)
+    val drawerLayout: DrawerLayout = findViewById(id.drawer_layout)
+    val navView: NavigationView = findViewById(id.nav_view)
     val toggle = ActionBarDrawerToggle(
-      this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
+      this, drawerLayout, toolbar,
+      string.navigation_drawer_open,
+      string.navigation_drawer_close
     )
     drawerLayout.addDrawerListener(toggle)
     toggle.syncState()
@@ -42,18 +48,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     if (savedInstanceState == null) {
       val contentView = DataBindingUtil.setContentView<ActivityMainBinding>(
         this,
-        R.layout.activity_main
+        layout.activity_main
       )
       contentView.viewModel = provideViewModel();
     }
   }
 
-  private fun provideViewModel(): MainViewModel? {
-
-  }
+  private fun provideViewModel() = ViewModelProviders.of(this).get(MainViewModel::class.java)
 
   override fun onBackPressed() {
-    val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
+    val drawerLayout: DrawerLayout = findViewById(id.drawer_layout)
     if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
       drawerLayout.closeDrawer(GravityCompat.START)
     } else {
@@ -72,7 +76,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     // automatically handle clicks on the Home/Up button, so long
     // as you specify a parent activity in AndroidManifest.xml.
     return when (item.itemId) {
-      R.id.action_settings -> true
+      id.action_settings -> true
       else -> super.onOptionsItemSelected(item)
     }
   }
@@ -80,26 +84,26 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
   override fun onNavigationItemSelected(item: MenuItem): Boolean {
     // Handle navigation view item clicks here.
     when (item.itemId) {
-      R.id.nav_home -> {
+      id.nav_home -> {
         // Handle the camera action
       }
-      R.id.nav_gallery -> {
+      id.nav_gallery -> {
 
       }
-      R.id.nav_slideshow -> {
+      id.nav_slideshow -> {
 
       }
-      R.id.nav_tools -> {
+      id.nav_tools -> {
 
       }
-      R.id.nav_share -> {
+      id.nav_share -> {
 
       }
-      R.id.nav_send -> {
+      id.nav_send -> {
 
       }
     }
-    val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
+    val drawerLayout: DrawerLayout = findViewById(id.drawer_layout)
     drawerLayout.closeDrawer(GravityCompat.START)
     return true
   }
