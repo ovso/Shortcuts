@@ -8,6 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.google.android.material.navigation.NavigationView
 import io.github.ovso.shortcuts.R
@@ -15,15 +18,28 @@ import io.github.ovso.shortcuts.R.id
 import io.github.ovso.shortcuts.R.layout
 import io.github.ovso.shortcuts.R.string
 import io.github.ovso.shortcuts.databinding.ActivityMainBinding
+import io.github.ovso.shortcuts.utils.ResourceProvider
+import io.github.ovso.shortcuts.utils.rx.Schedulers
 import kotlinx.android.synthetic.main.app_bar_main.toolbar
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+  private lateinit var viewModel: MainViewModel
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setupDataBinding(savedInstanceState)
     setupToolbar()
     setupDrawer()
+    fetchList()
+  }
+
+  private fun fetchList() {
+    viewModel.appsLiveData.observe(this, Observer {
+      Timber.d("size = ${it.size()}")
+    })
+    viewModel.fetchList()
   }
 
   private fun setupDrawer() {
@@ -50,11 +66,22 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         this,
         layout.activity_main
       )
-      contentView.viewModel = provideViewModel();
+      viewModel = provideViewModel()
+      contentView.viewModel = viewModel
     }
   }
 
-  private fun provideViewModel() = ViewModelProviders.of(this).get(MainViewModel::class.java)
+  @Suppress("UNCHECKED_CAST")
+  private fun provideViewModel() = ViewModelProviders.of(this, object : ViewModelProvider.Factory {
+    override fun <T : ViewModel?> create(modelClass: Class<T>) =
+      MainViewModel(provideMainArguments()) as T
+  }).get(MainViewModel::class.java)
+
+  private fun provideMainArguments(): MainViewModelArguments {
+    return MainViewModelArguments.Builder()
+      .resProvider(ResourceProvider(applicationContext))
+      .schedulers(Schedulers()).build()
+  }
 
   override fun onBackPressed() {
     val drawerLayout: DrawerLayout = findViewById(id.drawer_layout)

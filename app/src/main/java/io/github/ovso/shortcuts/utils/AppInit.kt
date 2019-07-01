@@ -3,8 +3,8 @@ import android.app.Application
 import android.content.Context
 import android.content.ContextWrapper
 import com.google.android.gms.ads.MobileAds
-import com.pixplicity.easyprefs.library.BuildConfig
 import com.pixplicity.easyprefs.library.Prefs
+import io.github.ovso.shortcuts.BuildConfig
 import timber.log.Timber
 
 object AppInit {
