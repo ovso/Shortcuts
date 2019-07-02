@@ -5,6 +5,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
 import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
@@ -12,6 +13,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
+import com.fondesa.recyclerviewdivider.RecyclerViewDivider
 import com.google.android.material.navigation.NavigationView
 import io.github.ovso.shortcuts.R
 import io.github.ovso.shortcuts.R.id
@@ -40,6 +42,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
   private fun setupRev() {
     recyclerview_main.adapter = adapter
+    RecyclerViewDivider.with(this)
+      .size(2)
+      .color(ContextCompat.getColor(this, R.color.colorPrimary))
+      .build()
+      .addTo(recyclerview_main)
   }
 
   private fun fetchList() {
