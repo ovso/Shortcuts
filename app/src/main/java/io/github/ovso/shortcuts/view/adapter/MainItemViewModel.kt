@@ -1,9 +1,7 @@
 package io.github.ovso.shortcuts.view.adapter
 
-import com.google.gson.JsonElement
-
-class MainItemViewModel(private val item: JsonElement?) {
+class MainItemViewModel(private val item: App?) {
 
   val title: String
-    get() = item!!.asJsonObject["name"].asString
+    get() = item?.name!!
 }

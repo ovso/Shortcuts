@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
   private fun fetchList() {
     viewModel.appsLiveData.observe(this, Observer {
-      Timber.d("size = ${it.size()}")
+      Timber.d("size = ${it.size}")
       adapter.items.addAll(it)
       adapter.notifyDataSetChanged()
     })

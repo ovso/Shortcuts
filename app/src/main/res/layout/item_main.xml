@@ -16,7 +16,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:background="?android:attr/selectableItemBackground"
-      android:clickable="true"
       >
     <TextView
         android:id="@+id/textview_main_item_title"
@@ -29,7 +28,7 @@
         android:textColor="#FF4A4A4A"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="6:2"
+        app:layout_constraintDimensionRatio="2:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

@@ -12,11 +12,11 @@ import io.github.ovso.shortcuts.databinding.ItemMainBinding
 import io.github.ovso.shortcuts.view.adapter.MainRevAdapter.MainRevViewHolder
 
 class MainRevAdapter : RecyclerView.Adapter<MainRevViewHolder>() {
-  val items = JsonArray()
+  val items = mutableListOf<App>()
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
     MainRevViewHolder.create(parent)
 
-  override fun getItemCount() = items.size()
+  override fun getItemCount() = items.size
 
   override fun onBindViewHolder(holder: MainRevViewHolder, position: Int) {
     holder.bind(getItem(position))
@@ -26,7 +26,7 @@ class MainRevAdapter : RecyclerView.Adapter<MainRevViewHolder>() {
 
   class MainRevViewHolder(val binding: ItemMainBinding) : RecyclerView.ViewHolder(binding.root) {
 
-    fun bind(item: JsonElement) {
+    fun bind(item:App) {
       binding.viewModel = MainItemViewModel(item)
     }
 
