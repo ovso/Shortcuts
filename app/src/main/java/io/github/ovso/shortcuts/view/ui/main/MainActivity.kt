@@ -20,19 +20,26 @@ import io.github.ovso.shortcuts.R.string
 import io.github.ovso.shortcuts.databinding.ActivityMainBinding
 import io.github.ovso.shortcuts.utils.ResourceProvider
 import io.github.ovso.shortcuts.utils.rx.Schedulers
+import io.github.ovso.shortcuts.view.adapter.MainRevAdapter
+import kotlinx.android.synthetic.main.app_bar_main.recyclerview_main
 import kotlinx.android.synthetic.main.app_bar_main.toolbar
 import timber.log.Timber
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
   private lateinit var viewModel: MainViewModel
-
+  private var adapter = MainRevAdapter()
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setupDataBinding(savedInstanceState)
     setupToolbar()
     setupDrawer()
+    setupRev();
     fetchList()
+  }
+
+  private fun setupRev() {
+    recyclerview_main.adapter = adapter
   }
 
   private fun fetchList() {
