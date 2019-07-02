@@ -16,7 +16,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       >
-    <com.google.android.material.card.MaterialCardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,6 +35,6 @@
           android:text="@{viewModel.title}"
           tools:text="Adobe Illustrator"
           />
-    </com.google.android.material.card.MaterialCardView>
+    </androidx.cardview.widget.CardView>
   </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

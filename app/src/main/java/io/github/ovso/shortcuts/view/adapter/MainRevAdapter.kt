@@ -32,8 +32,6 @@ class MainRevAdapter : RecyclerView.Adapter<MainRevViewHolder>() {
 
     companion object {
       fun create(parent: ViewGroup): MainRevViewHolder {
-        val itemView =
-          LayoutInflater.from(parent.context).inflate(R.layout.item_main, parent, false)
         val layoutInflater = LayoutInflater.from(parent.context)
         val binding = DataBindingUtil.inflate<ItemMainBinding>(
           layoutInflater,

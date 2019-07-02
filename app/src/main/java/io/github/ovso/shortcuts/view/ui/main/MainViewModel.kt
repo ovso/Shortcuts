@@ -15,7 +15,10 @@ class MainViewModel(private val args: MainViewModelArguments) : DisposableViewMo
         Observable.fromCallable {
           val apps = args.resProvider?.toJsonStr("apps.json")
           apps?.let {
-            val items = Gson().fromJson(apps, JsonElement::class.java).asJsonArray
+            val items = Gson()
+              .fromJson(apps, JsonElement::class.java)
+              .asJsonObject["apps"]
+              .asJsonArray
             appsLiveData.postValue(items)
           }
         }.subscribeOn(args.schdulers.io()).subscribe()
