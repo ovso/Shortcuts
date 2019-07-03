@@ -45,6 +45,17 @@
       }
     },
     {
+      "name": "MS Visual Studio",
+      "url": {
+        "en": "https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+        "ko": "https://docs.microsoft.com/ko-kr/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+        "es": "https://docs.microsoft.com/es-es/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+        "hi": "https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+        "zh": "https://docs.microsoft.com/zh-cn/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio",
+        "ar": "https://docs.microsoft.com/ar-sa/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio"
+      }
+    },
+    {
       "name": "Apple Mac",
       "url": {
         "en": "https://support.apple.com/en-us/HT201236",

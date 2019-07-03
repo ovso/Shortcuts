@@ -1,4 +1,4 @@
-package io.github.ovso.globaltrend.utils
+package io.github.ovso.shortcuts.utils
 
 import android.content.res.Resources
 import androidx.core.os.ConfigurationCompat

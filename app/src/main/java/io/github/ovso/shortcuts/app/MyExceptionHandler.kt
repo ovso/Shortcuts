@@ -1,9 +1,9 @@
+package io.github.ovso.shortcuts.app
 
 import android.app.Activity
 import android.app.Application
 import android.content.Intent
 import android.os.Bundle
-import io.github.ovso.globaltrend.app.SimpleActivityLifecycleCallbacks
 import io.github.ovso.shortcuts.view.ui.error.ErrorActivity
 import java.io.PrintWriter
 import java.io.StringWriter

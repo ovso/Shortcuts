@@ -28,7 +28,7 @@ class MainViewModel(private val args: MainViewModelArguments) : DisposableViewMo
             )
             appsLiveData.postValue(items)
           }
-        }.subscribeOn(args.schdulers.io()).subscribe()
+        }.subscribeOn(it.io()).subscribe()
       )
     }
   }

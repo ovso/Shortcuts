@@ -1,4 +1,4 @@
-package io.github.ovso.globaltrend.app
+package io.github.ovso.shortcuts.app
 
 import android.app.Activity
 import android.app.Application

@@ -42,6 +42,11 @@
         android:theme="@style/AppTheme.NoActionBar">
     </activity>
 
+    <activity
+        android:name=".view.ui.web.WebActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar"/>
+
   </application>
 
 </manifest>

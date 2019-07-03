@@ -9,6 +9,7 @@ import com.google.gson.JsonArray
 import com.google.gson.JsonElement
 import io.github.ovso.shortcuts.R
 import io.github.ovso.shortcuts.databinding.ItemMainBinding
+import io.github.ovso.shortcuts.utils.ResourceProvider
 import io.github.ovso.shortcuts.view.adapter.MainRevAdapter.MainRevViewHolder
 
 class MainRevAdapter : RecyclerView.Adapter<MainRevViewHolder>() {
@@ -24,10 +25,10 @@ class MainRevAdapter : RecyclerView.Adapter<MainRevViewHolder>() {
 
   private fun getItem(position: Int) = items[position]
 
-  class MainRevViewHolder(val binding: ItemMainBinding) : RecyclerView.ViewHolder(binding.root) {
+  class MainRevViewHolder(private val binding: ItemMainBinding) : RecyclerView.ViewHolder(binding.root) {
 
     fun bind(item:App) {
-      binding.viewModel = MainItemViewModel(item)
+      binding.viewModel = MainItemViewModel(ResourceProvider(itemView.context), item)
     }
 
     companion object {

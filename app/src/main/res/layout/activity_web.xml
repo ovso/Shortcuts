@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ui.main.MainActivity"
+    tools:context=".view.ui.web.WebActivity"
     >
 
   <com.google.android.material.appbar.AppBarLayout
@@ -24,14 +24,11 @@
 
   </com.google.android.material.appbar.AppBarLayout>
 
-  <androidx.recyclerview.widget.RecyclerView
-      android:id="@+id/recyclerview_main"
+  <FrameLayout
+      android:id="@+id/container"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-      app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
-      app:spanCount="2"
-      tools:listitem="@layout/item_main"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior"
       />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
