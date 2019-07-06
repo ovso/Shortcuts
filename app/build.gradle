@@ -114,6 +114,10 @@ dependencies {
   implementation deps.lottie
   implementation deps.rev_divider
 
+  implementation deps.autodispose.ktx
+  implementation deps.autodispose.android_ktx
+  implementation deps.autodispose.android_arch_com_ktx
+
   testImplementation deps.atsl.junit
   androidTestImplementation deps.atsl.runner
   androidTestImplementation deps.atsl.espressocore
