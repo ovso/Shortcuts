@@ -15,4 +15,5 @@
   <string name="menu_send">Send</string>
   <string name="error_desc">A temporary error has occurred. Click on the screen to restart the app.</string>
   <string name="menu_review">리뷰남기기</string>
+  <string name="nav_communication">Communication</string>
 </resources>

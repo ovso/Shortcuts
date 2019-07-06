@@ -219,6 +219,17 @@
         "zh": "https://www.autodesk.com/shortcuts/autocad",
         "ar": "https://www.autodesk.com/shortcuts/autocad"
       }
+    },
+    {
+      "name": "Eclipse",
+      "url": {
+        "en": "http://drive.google.com/viewerng/viewer?embedded=true&url=https://www.eclipse.org/getting_started/content/eclipse-ide-keybindings.pdf",
+        "ko": "http://drive.google.com/viewerng/viewer?embedded=true&url=https://www.eclipse.org/getting_started/content/eclipse-ide-keybindings.pdf",
+        "es": "http://drive.google.com/viewerng/viewer?embedded=true&url=https://www.eclipse.org/getting_started/content/eclipse-ide-keybindings.pdf",
+        "hi": "http://drive.google.com/viewerng/viewer?embedded=true&url=https://www.eclipse.org/getting_started/content/eclipse-ide-keybindings.pdf",
+        "zh": "http://drive.google.com/viewerng/viewer?embedded=true&url=https://www.eclipse.org/getting_started/content/eclipse-ide-keybindings.pdf",
+        "ar": "http://drive.google.com/viewerng/viewer?embedded=true&url=https://www.eclipse.org/getting_started/content/eclipse-ide-keybindings.pdf"
+      }
     }
   ]
 }

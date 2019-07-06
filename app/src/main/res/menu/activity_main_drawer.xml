@@ -13,7 +13,7 @@
         android:icon="@drawable/ic_open_source"
         android:title="@string/menu_opensource"/>
   </group>
-  <item android:title="Communication">
+  <item android:title="@string/nav_communication">
     <menu>
       <item
           android:id="@+id/nav_share"
