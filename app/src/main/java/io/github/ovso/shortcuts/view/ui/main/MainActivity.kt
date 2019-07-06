@@ -127,24 +127,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
   override fun onNavigationItemSelected(item: MenuItem): Boolean {
     // Handle navigation view item clicks here.
     when (item.itemId) {
-      id.nav_home -> {
-        // Handle the camera action
-      }
-      id.nav_gallery -> {
-
-      }
-      id.nav_slideshow -> {
-
-      }
-      id.nav_tools -> {
-
-      }
-      id.nav_share -> {
-
-      }
-      id.nav_send -> {
-
-      }
     }
     val drawerLayout: DrawerLayout = findViewById(id.drawer_layout)
     drawerLayout.closeDrawer(GravityCompat.START)
