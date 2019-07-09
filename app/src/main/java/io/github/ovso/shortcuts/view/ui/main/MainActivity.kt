@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.fondesa.recyclerviewdivider.RecyclerViewDivider
 import com.google.android.material.navigation.NavigationView
 import com.uber.autodispose.android.lifecycle.AndroidLifecycleScopeProvider
+import de.psdev.licensesdialog.LicensesDialog
 import io.github.ovso.shortcuts.R
 import io.github.ovso.shortcuts.R.id
 import io.github.ovso.shortcuts.R.layout
@@ -113,11 +114,19 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
   override fun onNavigationItemSelected(item: MenuItem): Boolean {
     // Handle navigation view item clicks here.
     when (item.itemId) {
+      id.nav_opensource -> showLicenseDialog()
       id.nav_share -> navigateToShare()
       id.nav_review -> navigateToReview()
     }
     drawer_layout.closeDrawer(GravityCompat.START)
     return true
+  }
+
+  private fun showLicenseDialog() {
+    LicensesDialog.Builder(this)
+      .setNotices(R.raw.notices)
+      .build()
+      .show()
   }
 
   private fun navigateToShare() {
