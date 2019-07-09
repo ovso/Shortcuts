@@ -1,14 +1,14 @@
 <resources>
-  <string name="app_name">Shortcuts</string>
+  <string name="app_name">Shortcuts collection</string>
   <string name="navigation_drawer_open">Open navigation drawer</string>
   <string name="navigation_drawer_close">Close navigation drawer</string>
   <string name="nav_header_title">Android Studio</string>
-  <string name="nav_header_subtitle">android.studio@android.com</string>
+  <string name="nav_header_subtitle">ovsoc@daum.net</string>
   <string name="nav_header_desc">Navigation header</string>
 
   <string name="menu_opensource">Opensource license</string>
-  <string name="menu_share">앱공유</string>
+  <string name="menu_share">App share</string>
   <string name="error_desc">A temporary error has occurred. Click on the screen to restart the app.</string>
-  <string name="menu_review">리뷰남기기</string>
+  <string name="menu_review">Review</string>
   <string name="nav_communication">Communication</string>
 </resources>
