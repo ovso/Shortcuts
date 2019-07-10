@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     setupDataBinding(savedInstanceState)
     setupToolbar()
     setupDrawer()
-    setupRev();
+    setupRev()
     fetchList()
   }
 

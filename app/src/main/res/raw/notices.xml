@@ -55,12 +55,6 @@
     <license>Apache Software License 2.0</license>
   </notice>
   <notice>
-    <name>RSS-Parser</name>
-    <url>https://github.com/prof18/RSS-Parser</url>
-    <copyright>Copyright 2016 Marco Gomiero</copyright>
-    <license>Apache Software License 2.0</license>
-  </notice>
-  <notice>
     <name>RecyclerViewDivider</name>
     <url>https://github.com/Fondesa/RecyclerViewDivider</url>
     <copyright>Copyright {yyyy} {name of copyright owner}</copyright>
