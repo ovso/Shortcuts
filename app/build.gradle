@@ -26,14 +26,15 @@ android {
     versionCode config.version_major * 1000000 + config.version_minor * 1000 + config.version_patch
     versionName "${config.version_major}.${config.version_minor}.${config.version_patch}"
     vectorDrawables.useSupportLibrary true
+    multiDexEnabled true
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
   }
   buildTypes {
     release {
 
-      minifyEnabled true
-      useProguard true
-      shrinkResources true
+      minifyEnabled false
+      useProguard false
+      shrinkResources false
 
       proguardFile getDefaultProguardFile('proguard-android.txt')
       proguardFile 'proguard-rules.pro'
