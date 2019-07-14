@@ -4,7 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import io.github.ovso.shortcuts.R
+import io.github.ovso.shortcuts.view.MyAdView
 import io.github.ovso.shortcuts.view.ui.splash.SplashActivity
+import kotlinx.android.synthetic.main.activity_error.linearlayout_error_container
 import kotlinx.android.synthetic.main.activity_error.textview_error
 
 class ErrorActivity : AppCompatActivity() {
@@ -18,6 +20,11 @@ class ErrorActivity : AppCompatActivity() {
       startActivity(Intent(this, SplashActivity::class.java))
       finish()
     }
+    setupAds()
+  }
+
+  private fun setupAds() {
+    linearlayout_error_container.addView(MyAdView.getAdmobBannerView(this))
   }
 
   companion object {

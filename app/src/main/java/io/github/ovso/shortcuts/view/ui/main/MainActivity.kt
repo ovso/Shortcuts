@@ -25,8 +25,10 @@ import io.github.ovso.shortcuts.R.string
 import io.github.ovso.shortcuts.databinding.ActivityMainBinding
 import io.github.ovso.shortcuts.utils.ResourceProvider
 import io.github.ovso.shortcuts.utils.rx.Schedulers
+import io.github.ovso.shortcuts.view.MyAdView
 import io.github.ovso.shortcuts.view.adapter.MainRevAdapter
 import kotlinx.android.synthetic.main.activity_main.drawer_layout
+import kotlinx.android.synthetic.main.app_bar_main.linearlayout_main_container
 import kotlinx.android.synthetic.main.app_bar_main.recyclerview_main
 import kotlinx.android.synthetic.main.app_bar_main.toolbar
 import timber.log.Timber
@@ -42,6 +44,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     setupDrawer()
     setupRev()
     fetchList()
+    setupAds()
+  }
+
+  private fun setupAds() {
+    linearlayout_main_container.addView(MyAdView.getAdmobBannerView(this))
   }
 
   private fun setupRev() {
@@ -136,7 +143,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
       putExtra(Intent.EXTRA_TEXT, "market://details?value=$packageName")
       intent.type = "text/plain"
     }
-    startActivity(Intent.createChooser(intent, "App share"))
+    startActivity(Intent.createChooser(intent, "AppInfo share"))
   }
 
   private fun navigateToReview() {

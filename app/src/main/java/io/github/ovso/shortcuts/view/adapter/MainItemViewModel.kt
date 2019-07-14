@@ -10,7 +10,7 @@ import timber.log.Timber
 
 class MainItemViewModel(
   private val resProvider: ResourceProvider,
-  private val item: App?
+  private val item: AppInfo?
 ) {
 
   val title: String

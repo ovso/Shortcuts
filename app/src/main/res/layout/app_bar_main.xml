@@ -24,14 +24,22 @@
 
   </com.google.android.material.appbar.AppBarLayout>
 
-  <androidx.recyclerview.widget.RecyclerView
-      android:id="@+id/recyclerview_main"
+  <LinearLayout
+      android:id="@+id/linearlayout_main_container"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+      android:orientation="vertical"
       app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
-      app:spanCount="2"
-      tools:listitem="@layout/item_main"
-      />
+      >
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:listitem="@layout/item_main"
+        />
 
+  </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

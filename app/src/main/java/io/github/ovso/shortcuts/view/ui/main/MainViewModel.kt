@@ -5,11 +5,11 @@ import com.google.gson.Gson
 import com.google.gson.JsonElement
 import com.uber.autodispose.autoDisposable
 import io.github.ovso.shortcuts.view.DisposableViewModel
-import io.github.ovso.shortcuts.view.adapter.App
+import io.github.ovso.shortcuts.view.adapter.AppInfo
 import io.reactivex.Observable
 
 class MainViewModel(private val args: MainViewModelArguments) : DisposableViewModel() {
-  val appsLiveData = MutableLiveData<MutableList<App>>()
+  val appsLiveData = MutableLiveData<MutableList<AppInfo>>()
   fun fetchList() {
     args.schdulers?.let {
       Observable.fromCallable {
@@ -23,7 +23,7 @@ class MainViewModel(private val args: MainViewModelArguments) : DisposableViewMo
           .asJsonArray
       }.map {
         // jsonArray to items
-        val array = Gson().fromJson(it, Array<App>::class.java)
+        val array = Gson().fromJson(it, Array<AppInfo>::class.java)
         array.toMutableList()
       }.map {
         // items sort

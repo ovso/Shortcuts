@@ -1,19 +1,16 @@
 package io.github.ovso.shortcuts.view.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.google.gson.JsonArray
-import com.google.gson.JsonElement
 import io.github.ovso.shortcuts.R
 import io.github.ovso.shortcuts.databinding.ItemMainBinding
 import io.github.ovso.shortcuts.utils.ResourceProvider
 import io.github.ovso.shortcuts.view.adapter.MainRevAdapter.MainRevViewHolder
 
 class MainRevAdapter : RecyclerView.Adapter<MainRevViewHolder>() {
-  val items = mutableListOf<App>()
+  val items = mutableListOf<AppInfo>()
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
     MainRevViewHolder.create(parent)
 
@@ -27,7 +24,7 @@ class MainRevAdapter : RecyclerView.Adapter<MainRevViewHolder>() {
 
   class MainRevViewHolder(private val binding: ItemMainBinding) : RecyclerView.ViewHolder(binding.root) {
 
-    fun bind(item:App) {
+    fun bind(item:AppInfo) {
       binding.viewModel = MainItemViewModel(ResourceProvider(itemView.context), item)
     }
 

@@ -5,6 +5,8 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import io.github.ovso.shortcuts.R
+import io.github.ovso.shortcuts.view.MyAdView
+import kotlinx.android.synthetic.main.activity_web.linearlayout_web_container
 import kotlinx.android.synthetic.main.activity_web.toolbar
 
 class WebActivity : AppCompatActivity() {
@@ -19,6 +21,12 @@ class WebActivity : AppCompatActivity() {
         .replace(R.id.container, WebFragment.newInstance(), WebFragment::class.java.simpleName)
         .commitNow()
     }
+
+    setupAds()
+  }
+
+  private fun setupAds() {
+    linearlayout_web_container.addView(MyAdView.getAdmobBannerView(this))
   }
 
   override fun onOptionsItemSelected(item: MenuItem?): Boolean {
