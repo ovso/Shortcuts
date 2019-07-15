@@ -18,7 +18,7 @@ class App : Application() {
     super.onCreate()
     AppInit.timber()
     AppInit.prefs(this)
-    AppInit.ad(this)
+    AppInit.ads(this)
     RxJavaPlugins.setErrorHandler(Functions.emptyConsumer())
     AppInit.crashHandling(this)
   }

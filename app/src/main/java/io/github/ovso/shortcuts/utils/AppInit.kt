@@ -25,7 +25,7 @@ object AppInit {
       .build()
   }
 
-  fun ad(context: Context) {
+  fun ads(context: Context) {
     MobileAds.initialize(context, Ads.ADMOB_APP_ID.value)
   }
 
