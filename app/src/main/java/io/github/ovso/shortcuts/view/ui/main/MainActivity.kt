@@ -140,10 +140,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     val intent = Intent(Intent.ACTION_SEND).apply {
       addCategory(Intent.CATEGORY_DEFAULT)
       putExtra(Intent.EXTRA_TITLE, "Share")
+      type = "text/plain"
       putExtra(Intent.EXTRA_TEXT, "market://details?value=$packageName")
-      intent.type = "text/plain"
     }
-    startActivity(Intent.createChooser(intent, "AppInfo share"))
+    startActivity(Intent.createChooser(intent, "App share"))
   }
 
   private fun navigateToReview() {

@@ -15,6 +15,7 @@ class WebActivity : AppCompatActivity() {
     setContentView(R.layout.activity_web)
     setSupportActionBar(toolbar)
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    toolbar.setNavigationOnClickListener { onBackPressed() }
     toolbar.navigationIcon = ContextCompat.getDrawable(this, R.drawable.ic_close)
     if (savedInstanceState == null) {
       supportFragmentManager.beginTransaction()

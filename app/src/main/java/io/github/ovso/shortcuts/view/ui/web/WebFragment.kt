@@ -52,15 +52,10 @@ class WebFragment : Fragment(), OnBackPressedListener {
   }
 
   private fun initAds() {
-
     interstitialAd.adListener = object : AdListener() {
       override fun onAdClosed() {
         super.onAdClosed()
         activity?.finish()
-      }
-
-      override fun onAdLoaded() {
-        super.onAdLoaded()
       }
     }
   }
